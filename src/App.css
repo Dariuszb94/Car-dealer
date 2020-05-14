@@ -121,7 +121,8 @@ a{
 }
 .moreButton{
   background-color: #410B13;
-  padding:8px;
+  padding:16px;
+  border:1px solid white;
 }
 /*Financing*/
 .financingContainer{
