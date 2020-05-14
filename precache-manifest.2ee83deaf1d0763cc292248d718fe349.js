@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55dee5fc21cf8a1a262aad7b161affe1",
+    "revision": "d2989f7977b14277d54514d2345ca4e8",
     "url": "/Car-dealer/index.html"
   },
   {
-    "revision": "566b432cbba6079cf4cc",
-    "url": "/Car-dealer/static/css/main.43b2cbe1.chunk.css"
+    "revision": "9f8002af3ed2435ca967",
+    "url": "/Car-dealer/static/css/main.697d3cef.chunk.css"
   },
   {
     "revision": "f463824c67b587ba76bf",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Car-dealer/static/js/2.c04cf3a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "566b432cbba6079cf4cc",
+    "revision": "9f8002af3ed2435ca967",
     "url": "/Car-dealer/static/js/main.83acd238.chunk.js"
   },
   {
