@@ -8,7 +8,7 @@
 }
 /* Header */
 .title{
-  font-family: 'Oleo Script', cursive;
+
   grid-area: b;
   text-align: center;
   font-size:32px;
@@ -18,7 +18,7 @@
   grid-template-columns: 20% 60% 20%;
   grid-template-areas:  "a b c";
   justify-content: center;
-  background-color: #4C5454;
+  background-color: #223127;
   color:white;
   align-items:center;
   padding:16px;
@@ -53,12 +53,13 @@ button:focus {
 }
 .logo{
   color:white;
+  font-family: 'Oleo Script', cursive;
 }
 a{
   text-decoration: none;
 }
 .searchInput{
-  background-color: #FF715B;
+  background-color: #9C0D38;
   border:none;
 }
 .searchInput:focus {
@@ -72,14 +73,14 @@ a{
   justify-content: space-around;
 }
 .menuContainer{
-  background-color: #FF715B;
+  background-color: #9C0D38;
 
   font-size:28px;
   padding:16px;
 }
 /* Slider */
 .slider{
-  background-color: #1EA896;
+  background-color: #410B13;
 }
 .sliderContainer{
   background-color: #9C9990;
@@ -105,7 +106,7 @@ a{
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(76, 84, 84, 0.7);
+  background: rgba(34, 49, 39, 0.7);
 }
 .sliderContainer section{
   color: #FFF;
@@ -120,8 +121,9 @@ a{
   padding-bottom:16%;
 }
 .moreButton{
-  background-color: #9C9990;
-  padding:8px;
+  background-color: #410B13;
+  padding:16px;
+  border:1px solid white;
 }
 /*Financing*/
 .financingContainer{
@@ -149,14 +151,14 @@ color:black;
 }
 /* Why */
 .whySection{
-  background-color: #FF715B;
+  background-color: #9C0D38;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding:2%;
 }
 .whySection section{
-  background-color: #FF715B;
+  background-color: #9C0D38;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,7 +174,7 @@ color:black;
 
 /* Footer */
 footer{
-  background-color: #4C5454;;
+  background-color: #223127;;
   padding: 1%;
   font-size: 16px;
   width: 100%;
