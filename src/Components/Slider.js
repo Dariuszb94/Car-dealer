@@ -23,10 +23,20 @@ export default class Slider extends Component {
     return (
       <div className="slider">
         <div className="sliderContainer">
-          <section><h2>Good prices</h2></section>
-          <section><h3>Accident-free cars</h3></section>
-          <section><h3>Guaranties</h3></section>
-          <section><button className="moreButton">See more</button></section>
+          <section>
+            <article>
+              <h2>Good prices</h2>
+            </article>
+            <article>
+              <h3>Accident-free cars</h3>
+            </article>
+            <article>
+              <h3>Guaranties</h3>
+            </article>
+          </section>
+          <section className="slideButton">
+            <article><button className="moreButton">See more</button></article>
+          </section>
         </div>
       </div>
     );

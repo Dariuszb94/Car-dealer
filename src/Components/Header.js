@@ -26,7 +26,7 @@ export default class Header extends Component {
     return (
       <div className="headerContainer">
         <section className="title">
-          <h1><a href="/#" class="logo">Lux-cars</a></h1>
+          <h1><a href="/#" className="logo">Lux-cars</a></h1>
         </section>
         <Search/>
       </div>
