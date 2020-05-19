@@ -30,7 +30,7 @@ export default class Menu extends Component {
         <ul className="menuList">
           <li><NavLink exact to="/Car-dealer" activeClassName="active">Home</NavLink></li>
           <li><NavLink to="/offers" activeClassName="active">Offers</NavLink></li>
-          <li><NavLink to="/about" activeClassName="active">About us</NavLink></li>
+          <li><a href="/#">About us</a></li>
         </ul>
       </div>
     );

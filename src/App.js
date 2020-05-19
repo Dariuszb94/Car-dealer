@@ -6,6 +6,7 @@ import Copyright from './Components/Copyright';
 import Home from './Components/Home';
 import Offers from './Components/Offers';
 import OneCar from './Components/Offer';
+import About from './Components/About';
 import {
   Route,
   Switch
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/Car-dealer" component={Home} />
           <Route path="/offers" component={Offers} />
           <Route path="/offer" component={OneCar} />
+          <Route path="/about" component={About} />
         </Switch>
         <Copyright/>
     </div>

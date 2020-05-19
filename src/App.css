@@ -192,9 +192,60 @@ footer{
 }
 
 /* About*/
-.aboutContainer{
-  background-color: red;
+section.aboutSection{
+  background-color: #ABD2FA;
+  padding-left: 16%;
+  padding-right: 16%;
 }
+.aboutImage{
+  width:100%;
+  height: auto;
+}
+.aboutImageContainer{
+  width: 100%;
+}
+.aboutTextContainer *{
+  color:black;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutContent {
+  background-color: white;
+}
+.aboutCallMail{
+  display: flex;
+  flex-direction: row;
+}
+.aboutCallButton, .aboutMailButton{
+  background-color: #1B2CC1;
+  padding:8px;
+  padding-left: 16px;
+  padding-right:16px ;
+  color:white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 64px;  
+ 
+  
+}
+button.aboutCallButton *, button.aboutMailButton *{
+
+  color:white !important;
+
+}
+
+.aboutCall, .aboutMail{
+  width: 100%;
+}
+
+
+
+
 
 /* Offers */
 .offerContainer{
@@ -411,6 +462,10 @@ flex-direction: row;
   align-items: center;
   padding-bottom:16px; ;
 }
+
+
+
+
 @media screen and (max-width: 1480px) {
   .carOffer{
     padding-left:4%;
@@ -874,6 +929,7 @@ width: 80%;
         font-size: 12px
          }
 }
+
 
 
 
