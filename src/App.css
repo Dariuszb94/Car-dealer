@@ -633,6 +633,17 @@ width: 80%;
             }
 }
 @media screen and (max-width: 800px) {
+  .aboutCallButton, .aboutMailButton{
+    padding-left: 8px;
+    padding-right:8px ;
+    height: 40px;  
+   
+    
+  }
+  section.aboutSection{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
   .whyIcon {
     font-size: 80px !important;
 }
