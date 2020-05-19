@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Car-dealer/static/css/main.e7c32f2f.chunk.css",
+    "main.css": "/Car-dealer/static/css/main.914cd368.chunk.css",
     "main.js": "/Car-dealer/static/js/main.3c10c5bd.chunk.js",
     "main.js.map": "/Car-dealer/static/js/main.3c10c5bd.chunk.js.map",
     "runtime-main.js": "/Car-dealer/static/js/runtime-main.b222779f.js",
@@ -8,9 +8,9 @@
     "static/js/2.ec48c7b7.chunk.js": "/Car-dealer/static/js/2.ec48c7b7.chunk.js",
     "static/js/2.ec48c7b7.chunk.js.map": "/Car-dealer/static/js/2.ec48c7b7.chunk.js.map",
     "index.html": "/Car-dealer/index.html",
-    "precache-manifest.35511885706626d57b9edc802d4a3637.js": "/Car-dealer/precache-manifest.35511885706626d57b9edc802d4a3637.js",
+    "precache-manifest.7effa928abce19e3e6f7bebb47ab991d.js": "/Car-dealer/precache-manifest.7effa928abce19e3e6f7bebb47ab991d.js",
     "service-worker.js": "/Car-dealer/service-worker.js",
-    "static/css/main.e7c32f2f.chunk.css.map": "/Car-dealer/static/css/main.e7c32f2f.chunk.css.map",
+    "static/css/main.914cd368.chunk.css.map": "/Car-dealer/static/css/main.914cd368.chunk.css.map",
     "static/js/2.ec48c7b7.chunk.js.LICENSE.txt": "/Car-dealer/static/js/2.ec48c7b7.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/Car-dealer/static/media/about.d1d76a6b.jpg",
     "static/media/main.jpg": "/Car-dealer/static/media/main.8b32e445.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.b222779f.js",
     "static/js/2.ec48c7b7.chunk.js",
-    "static/css/main.e7c32f2f.chunk.css",
+    "static/css/main.914cd368.chunk.css",
     "static/js/main.3c10c5bd.chunk.js"
   ]
 }
