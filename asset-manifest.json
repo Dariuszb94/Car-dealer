@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Car-dealer/static/css/main.0456378c.chunk.css",
-    "main.js": "/Car-dealer/static/js/main.799ba41f.chunk.js",
-    "main.js.map": "/Car-dealer/static/js/main.799ba41f.chunk.js.map",
+    "main.css": "/Car-dealer/static/css/main.4e2149e9.chunk.css",
+    "main.js": "/Car-dealer/static/js/main.2dab384a.chunk.js",
+    "main.js.map": "/Car-dealer/static/js/main.2dab384a.chunk.js.map",
     "runtime-main.js": "/Car-dealer/static/js/runtime-main.b222779f.js",
     "runtime-main.js.map": "/Car-dealer/static/js/runtime-main.b222779f.js.map",
-    "static/js/2.3044ef2e.chunk.js": "/Car-dealer/static/js/2.3044ef2e.chunk.js",
-    "static/js/2.3044ef2e.chunk.js.map": "/Car-dealer/static/js/2.3044ef2e.chunk.js.map",
+    "static/js/2.3917cfb8.chunk.js": "/Car-dealer/static/js/2.3917cfb8.chunk.js",
+    "static/js/2.3917cfb8.chunk.js.map": "/Car-dealer/static/js/2.3917cfb8.chunk.js.map",
     "index.html": "/Car-dealer/index.html",
-    "precache-manifest.6ee6f5d019f86f11fc7467ad0be26648.js": "/Car-dealer/precache-manifest.6ee6f5d019f86f11fc7467ad0be26648.js",
+    "precache-manifest.f931c14ffd2c8197326e8784be05a64c.js": "/Car-dealer/precache-manifest.f931c14ffd2c8197326e8784be05a64c.js",
     "service-worker.js": "/Car-dealer/service-worker.js",
-    "static/css/main.0456378c.chunk.css.map": "/Car-dealer/static/css/main.0456378c.chunk.css.map",
-    "static/js/2.3044ef2e.chunk.js.LICENSE.txt": "/Car-dealer/static/js/2.3044ef2e.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Car-dealer/static/media/photo-of-person-driving-769892.40bc8334.jpg"
+    "static/css/main.4e2149e9.chunk.css.map": "/Car-dealer/static/css/main.4e2149e9.chunk.css.map",
+    "static/js/2.3917cfb8.chunk.js.LICENSE.txt": "/Car-dealer/static/js/2.3917cfb8.chunk.js.LICENSE.txt",
+    "static/media/main.jpg": "/Car-dealer/static/media/main.8b32e445.jpg",
+    "static/media/photo-of-person-driving-769892.jpg": "/Car-dealer/static/media/photo-of-person-driving-769892.40bc8334.jpg",
+    "static/media/side1.jpg": "/Car-dealer/static/media/side1.e649635d.jpg",
+    "static/media/side2.jpg": "/Car-dealer/static/media/side2.acd7f6f9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b222779f.js",
-    "static/js/2.3044ef2e.chunk.js",
-    "static/css/main.0456378c.chunk.css",
-    "static/js/main.799ba41f.chunk.js"
+    "static/js/2.3917cfb8.chunk.js",
+    "static/css/main.4e2149e9.chunk.css",
+    "static/js/main.2dab384a.chunk.js"
   ]
 }
