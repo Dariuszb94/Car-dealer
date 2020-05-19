@@ -1,4 +1,9 @@
 import React, {Component} from 'react';
+import {
+  Route,
+  NavLink,
+  Switch
+} from "react-router-dom";
 export default class Slider extends Component {
   constructor(props) {
     super(props);
@@ -35,7 +40,7 @@ export default class Slider extends Component {
             </article>
           </section>
           <section className="slideButton">
-            <article><button className="moreButton">See more</button></article>
+            <article><NavLink to="/offers" activeClassName="active"><button className="moreButton">See more</button></NavLink></article>
           </section>
         </div>
       </div>

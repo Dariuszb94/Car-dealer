@@ -1,0 +1,2 @@
+export const UPDATE_CARS = 'UPDATE_CARS';
+export const SET_CURRENT_CAR_ID = 'SET_CURRENT_CAR_ID';

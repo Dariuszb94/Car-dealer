@@ -4,17 +4,12 @@ import Header from './Components/Header';
 import Menu from './Components/Menu';
 import Copyright from './Components/Copyright';
 import Home from './Components/Home';
-import About from './Components/About';
+import Offers from './Components/Offers';
+import OneCar from './Components/Offer';
 import {
   Route,
-  NavLink,
   Switch
 } from "react-router-dom";
-import {
-  CSSTransition,
-  TransitionGroup,
-} from 'react-transition-group';
-
 function App() {
   return (
     <div className="App">
@@ -22,7 +17,8 @@ function App() {
       <Menu/>
         <Switch >
           <Route exact path="/Car-dealer" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/offers" component={Offers} />
+          <Route path="/offer" component={OneCar} />
         </Switch>
         <Copyright/>
     </div>
