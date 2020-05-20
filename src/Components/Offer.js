@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom";
 class Offer extends Component {
   constructor(props) {
     super(props);
-    this.onUnload = this.onUnload.bind(this); //go to main page on reload
+    this.onUnload = this.onUnload.bind(this); //go to offers page on reload
     this.chooseFirstPicture = this.chooseFirstPicture.bind(this);
     this.chooseSecondPicture = this.chooseSecondPicture.bind(this);
     this.chooseThirdPicture = this.chooseThirdPicture.bind(this);
