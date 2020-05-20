@@ -7,7 +7,7 @@ Car dealer lets you see offers of cars
 
 ## General info
 You can check offers by clicking "Offers", then you can see all offers. You can search for offers, if you type "mercedes", only Mercedes cars will be shown.
-After clicking "See Offer", you can see details of offer, you can go back by clicking "Back to offers".
+After clicking "See Offer", you can see details of offer, you can go back by clicking "Back to offers". There is also a "About us", you see info about company there.
 ## Technologies
 Project is created with:
 * React version: 16.13.1
