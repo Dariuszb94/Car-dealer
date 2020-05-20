@@ -1,29 +1,6 @@
 import React, {Component} from 'react';
-import {
-  Route,
-  NavLink,
-  Switch
-} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 export default class Slider extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-    };
-  }
-
-  componentDidMount() {
-
-  }
-
-  componentWillUnmount() {
-
-  }
-
-  handleChange() {
-
-  }
-
   render() {
     return (
       <div className="slider">

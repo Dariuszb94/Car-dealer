@@ -6,6 +6,7 @@
   color:white;
   font-family: 'Montserrat', sans-serif;
 }
+
 /* Header */
 .title{
   grid-area: b;
@@ -64,6 +65,7 @@ a{
 .searchInput:focus {
   outline: none;
 }
+
 /* Menu */
 .menuList{
   list-style: none;
@@ -77,6 +79,7 @@ a{
   font-size:28px;
   padding:16px;
 }
+
 /* Slider */
 .slider{
   background-color: #ABD2FA;
@@ -130,34 +133,9 @@ a{
   padding:24px;
   padding-left:32px;
   padding-right:32px;
-
   font-size:32px
+}
 
-}
-/*Financing*/
-.financingContainer{
-  background-color: #CFD2B2;
-  display: flex;
-  flex-direction: row;
-  padding:2%;
-  justify-content:space-evenly;
-  padding-left: 24%;
-  padding-right: 24%;
-  align-items: center;
-}
-.credits, .percent{
-color:black;
-}
-.percent svg{
-  font-size:40px;
-}
-.percent svg path{
-
-  color:black !important;
-}
-.credits{
-  font-size:40px;
-}
 /* Why */
 .whySection{
   background-color: #3D518C;
@@ -229,23 +207,14 @@ section.aboutSection{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 64px;  
- 
-  
+  height: 64px;   
 }
 button.aboutCallButton *, button.aboutMailButton *{
-
   color:white !important;
-
 }
-
 .aboutCall, .aboutMail{
   width: 100%;
 }
-
-
-
-
 
 /* Offers */
 .offerContainer{
@@ -256,18 +225,16 @@ button.aboutCallButton *, button.aboutMailButton *{
    padding-top:16px;
 }
 .offersContainer{
-background-color: white;
+  background-color: white;
   padding-left:16%;
   padding-right:16%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  }
+}
 .offerImage{
   width: 100%;
   height: auto;
-
 }
 .offers{
   background-color: #091540;
@@ -297,22 +264,20 @@ ul.offersContainer *{
   padding-right: 8px;;
 }
 .seeOffer {
-color:white !important;
-background-color:#7692FF ;
-padding:8px;
-font-size: 16px;
-width: 90%;
--webkit-animation: seeOffer 3s linear infinite;
-animation: seeOffer 3s linear infinite;
-transition: 0.3s;
-
+  color:white !important;
+  background-color:#7692FF ;
+  padding:8px;
+  font-size: 16px;
+  width: 90%;
+  -webkit-animation: seeOffer 3s linear infinite;
+  animation: seeOffer 3s linear infinite;
+  transition: 0.3s;
 }
 .seeOffer:hover {
   color:#091540 !important;
   background-color:white ;
   border:2px solid #7692FF;
- font-weight: bold;
-  
+  font-weight: bold;
   }
 @keyframes seeOffer {
   0% {width: 90%;}
@@ -320,7 +285,6 @@ transition: 0.3s;
  40% {width: 85%;}
  60% {width: 87%;}
  100% {width: 90%;}
-
 }
 @-webkit-keyframes seeOffer {
   0% {width: 90%;}
@@ -347,7 +311,6 @@ div.carOffer, div.carOffer > *{
 .imagesContainer{
   width: 100%;
   grid-area:left;
-
 }
 .inActivePicture{
   display: none;
@@ -365,89 +328,81 @@ div.carOffer, div.carOffer > *{
   height: auto;
 }
 article.textContainer *{
-color:black;
+  color:black;
 }
 .textContainer {
   padding-left: 8px;
   padding-top: 8px;
   }
-  .carInfo{
-    padding-bottom:8px;
-    border-bottom: 2px solid #7692FF;
-  }
-  .carPrice h2{
-    color:#1B2CC1 ;
-  }
-  .carNameAndPrice{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .carDetails{
-    padding-top:8px;
-    padding-bottom:8px;
-    
-    border-bottom: 2px solid #7692FF;
-  }
-  .carDetails h3{
-    padding-top:8px;
-    padding-bottom:8px;
-  }
-  .carDetails li{
-    padding-top:4px;
-    padding-bottom:4px;
-    list-style: none;
-  }
-  .backToOffers{
-    background-color:#1B2CC1;
-    color:white !important;
-    width:200px;
-    padding:12px;
-  }
+.carInfo{
+  padding-bottom:8px;
+  border-bottom: 2px solid #7692FF;
+}.carPrice h2{
+  color:#1B2CC1 ;
+}
+.carNameAndPrice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.carDetails{
+  padding-top:8px;
+  padding-bottom:8px; 
+  border-bottom: 2px solid #7692FF;
+}
+.carDetails h3{
+  padding-top:8px;
+  padding-bottom:8px;
+}
+.carDetails li{
+  padding-top:4px;
+  padding-bottom:4px;
+  list-style: none;
+}
+.backToOffers{
+  background-color:#1B2CC1;
+  color:white !important;
+  width:200px;
+  padding:12px;
+}
 
   /*Contact*/
-  .sellerContact{
-    padding-top:8px;
-    padding-bottom:16px;
+.sellerContact{
+  padding-top:8px;
+  padding-bottom:16px;
+}
+.sellerContact h3{
+  padding-top:8px;
+  padding-bottom:8px;
+}
+.sellerContact label{
+  padding-bottom:8px;
+}
+.mailContact{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   }
-  .sellerContact h3{
-    padding-top:8px;
-    padding-bottom:8px;
-  }
-  .sellerContact label{
-    padding-bottom:8px;
-  }
-  .mailContact{
-display: flex;
-flex-direction: column;
-width: 50%;
-
-  }
-  .mailContact input{
-    outline: 2px solid #7692FF;
-    
-      }
-  .contacts{
-display: flex;
-flex-direction: row;
-
-  }
-  .contactTextArea{
-    width: 100%;
-    padding-top: 8px;
-    }
-    .contactTextArea textarea{
-      width: 100%;
-      outline: 2px solid #7692FF;
-      -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            height: 150px; 
-            margin-top:8px;
-        
-      }
-
-
+.mailContact input{
+  outline: 2px solid #7692FF;
+}
+.contacts{
+  display: flex;
+  flex-direction: row;
+}
+.contactTextArea{
+  width: 100%;
+  padding-top: 8px;
+}
+.contactTextArea textarea{
+  width: 100%;
+  outline: 2px solid #7692FF;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 150px; 
+  margin-top:8px;
+}
 .contactButton{
   width: 100%;
   background-color: #7692FF;
@@ -463,182 +418,172 @@ flex-direction: row;
   padding-bottom:16px; ;
 }
 
-
-
-
 @media screen and (max-width: 1480px) {
   .carOffer{
     padding-left:4%;
     padding-right:4%;
   }
   .contactTextArea textarea{
-          height: 100px; 
-    }
-    .offersContainer {
-
-      padding-left: 8%;
-      padding-right: 8%;
-    
+    height: 100px; 
+  }
+  .offersContainer {
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
+
 @media screen and (max-width: 1380px) {
   .carOffer{
     padding-left:2%;
     padding-right:2%;
   }
   .contactTextArea textarea{
-          height: 100px; 
-    }
-    .contactButton{
-      padding: 8px;
-      font-size:14px;
-    }
-    .carOfferWithButton h2{
-   font-size: 22px
-    }
-    .carOfferWithButton h3{
-      font-size: 18px
-       }
+    height: 100px; 
+  }
+  .contactButton{
+    padding: 8px;
+    font-size:14px;
+  }
+  .carOfferWithButton h2{
+    font-size: 22px
+  }
+  .carOfferWithButton h3{
+    font-size: 18px
+  }
 }
+
 @media screen and (max-width: 1280px) {
   .carOfferWithButton h2{
     font-size: 20px
-     }
-     .carOfferWithButton h3{
-       font-size: 16px
-        }
-        .contactTextArea textarea{
-          height: 64px; 
     }
-    .offersContainer {
-
-      padding-left: 4%;
-      padding-right: 4%;
-
+  .carOfferWithButton h3{
+    font-size: 16px
+  }
+  .contactTextArea textarea{
+    height: 64px; 
+  }
+  .offersContainer {
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
+
 @media screen and (max-width: 1180px) {
   .headerContainer {
     grid-template-columns: 20% 60% 20%;
-
     padding: 8px;
-}
-.carOfferWithButton h2{
+  }
+  .carOfferWithButton h2{
     font-size: 18px
-     }
-     .carOfferWithButton  h3{
-       font-size: 14px
-        }
-        .contactTextArea textarea{
-          height: 56px; 
     }
-    .carDetails ul li{
-      font-size:14px;
-    }
-    form{
-      font-size:14px;
-    }
-    .sellerContact label{
-      padding-bottom:4px;
-    }
-    .contactTextArea textarea{
-      margin-top: 4px; 
+  .carOfferWithButton  h3{
+    font-size: 14px
+  }
+  .contactTextArea textarea{
+    height: 56px; 
+  }
+  .carDetails ul li{
+    font-size:14px;
+  }
+  form{
+    font-size:14px;
+  }
+  .sellerContact label{
+     padding-bottom:4px;
+  }
+  .contactTextArea textarea{
+    margin-top: 4px; 
+  }
 }
-}
+
 @media screen and (max-width: 1080px) {
   .carNameAndPrice {
     display: flex;
     flex-direction: column;
-}
-.headerContainer{
-  display: flex;
- flex-direction: row;
- justify-content: space-evenly;
- 
-}
-.offerContainer {
-  grid-template-columns: 30% 40% 30%;
-}
-.offerPrice {
-width: 80%;
-  
   }
-
-
+  .headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .offerContainer {
+    grid-template-columns: 30% 40% 30%;
+  }
+  .offerPrice {
+    width: 80%;
+  }
 }
+
 @media screen and (max-width: 980px) {
   .carDetails li {
     padding-bottom: 0px;
   }
   .contactTextArea textarea{
     height: 48px; 
+  }
+  .offersContainer h2{
+    font-size: 22px
+  }
+  .offersContainer  h3{
+    font-size: 18px
+  }
 }
-.offersContainer h2{
-  font-size: 22px
-   }
-   .offersContainer  h3{
-     font-size: 18px
-      }
-}
+
 @media screen and (max-width: 900px) {
   .carDetails li {
     padding-bottom: 0px;
   }
   .contactTextArea textarea{
     height: 48px; 
-}
-.carOffer{
-
-  display: flex;
-  flex-direction: column-reverse;
-  
+  }
+  .carOffer{
+    display: flex;
+    flex-direction: column-reverse;
     padding-left:16%;
     padding-right:16%;
- 
+  }
+  .textContainer {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .contactTextArea textarea{
+    height: 64px; 
+  }
+  .carDetails li {
+    padding-bottom: 8px;
+  }
+  .carNameAndPrice {
+    display: flex;
+    flex-direction: row;
+  }
+  .carOfferWithButton h2{
+    font-size: 26px
+  }
+  .carOfferWithButton h3{
+    font-size: 22px
+  }
+  .carDetails ul li{
+    font-size:16px;
+  }
+  form{
+    font-size:14px;
+  }
+  .offersContainer h2{
+    font-size: 20px
+  }
+  .offersContainer  h3{
+    font-size: 16px
+  }
+  .offerDetails{
+    font-size:20px;
+  }
 }
-.textContainer {
-  padding-left: 0px;
-  padding-top: 0px;
-}
-.contactTextArea textarea{
-  height: 64px; 
-}
-.carDetails li {
-  padding-bottom: 8px;
-}
-.carNameAndPrice {
-  display: flex;
-  flex-direction: row;
-}
-.carOfferWithButton h2{
-  font-size: 26px
-   }
-   .carOfferWithButton h3{
-     font-size: 22px
-      }
-      .carDetails ul li{
-        font-size:16px;
-      }
-      form{
-        font-size:14px;
-      }
-      .offersContainer h2{
-        font-size: 20px
-         }
-         .offersContainer  h3{
-           font-size: 16px
-            }
-            .offerDetails{
-              font-size:20px;
-            }
-}
+
 @media screen and (max-width: 800px) {
   .aboutCallButton, .aboutMailButton{
     padding-left: 8px;
     padding-right:8px ;
     height: 40px;  
-   
-    
   }
   section.aboutSection{
     padding-left: 8%;
@@ -646,7 +591,7 @@ width: 80%;
   }
   .whyIcon {
     font-size: 80px !important;
-}
+  }
   .sliderContainer h3{
     font-size:24px;
   }
@@ -654,113 +599,89 @@ width: 80%;
     font-size:32px;
   }
   .moreButton {
-
-        padding-right: 16px;
-        padding-left: 16px;
-        font-size:24px;
-}
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size:24px;
+  }
   .carOffer{
-
-    
-      padding-left:12%;
-      padding-right:12%;
-   
+    padding-left:12%;
+    padding-right:12%;
   }
   .offerContainer {
-
     grid-template-columns: 33% 35% 32%;
   }
- 
-     .offersContainer  h3{
-       font-size: 14px
-        }
-        .offerHeadName{
-          display: flex;
-          flex-direction: column;
-        }
-        .offerHeadBrand{
-          padding-right: 0px;
-        }
-        .offerText, .offerPrice {
-          padding-top: 0px;
-      }
-
+  .offersContainer  h3{
+    font-size: 14px
+  }
+  .offerHeadName{
+    display: flex;
+    flex-direction: column;
+  }
+  .offerHeadBrand{
+    padding-right: 0px;
+  }
+  .offerText, .offerPrice {
+    padding-top: 0px;
+  }
 }
+
 @media screen and (max-width: 700px) {
   .carOffer{
-
-
-      padding-left:8%;
-      padding-right:8%;
-   
+    padding-left:8%;
+    padding-right:8%;
   }
   .sliderContainer {
-
     margin-right: 0%;
     margin-left: 0%;
+  }
+  .whyText {
+    font-size: 20px;
+  }
+  .whySection {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+}
 
-}
-.whyText {
-
-  font-size: 20px;
-}
-.whySection {
-
-  padding-top: 6%;
-  padding-bottom: 6%;
-}
-}
 @media screen and (max-width: 650px) {
   .carOffer{
-
-
-      padding-left:4%;
-      padding-right:4%;
-   
+    padding-left:4%;
+    padding-right:4%;
   }
-
-     .offersContainer  h3{
-       font-size: 12px
-        }
-    
-
+  .offersContainer  h3{
+    font-size: 12px
+  }
 }
+
 @media screen and (max-width: 600px) {
   .whyIcon {
     font-size: 56px !important;
-}
+  }
   .whyText {
-
     font-size: 16px;
   }
   .menuList{
     font-size:24px;
   }
   .carOffer{
-
-
-      padding-left:2%;
-      padding-right:2%;
-   
+    padding-left:2%;
+    padding-right:2%;
   }
   .carOfferWithButton  h2{
     font-size: 24px
-     }
-     .carOfferWithButton  h3{
-       font-size: 20px
-        }
-        .carDetails ul li{
-          font-size:14px;
-        }
-        form{
-          font-size:12px;
-        }
-        .offerContainer{
-           grid-gap: 0.5rem;
-
-        }
-     
-    
+  }
+  .carOfferWithButton  h3{
+    font-size: 20px
+  }
+  .carDetails ul li{
+    font-size:14px;
+  }
+  form{
+    font-size:12px;
+  }
+  .offerContainer{
+    grid-gap: 0.5rem;
+  }
   .seeOffer{
     font-size:14px;
   }
@@ -769,153 +690,143 @@ width: 80%;
     text-align: center;
   }
   .sliderContainer h3 {
- 
     padding-bottom: 8%;
-
-}
+  }
 }
 @media screen and (max-width: 550px) {
-
-
   .carOfferWithButton h2{
     font-size: 20px
-     }
-     .carOfferWithButton  h3{
-       font-size: 18px
-        }
-        .carDetails ul li{
-          font-size:14px;
-        }
-        form{
-          font-size:12px;
-        }
-        .title{
-     
-          font-size:28px;
-        }
-        .offersContainer {
-          padding-left: 1%;
-          padding-right: 1%;
+  }
+  .carOfferWithButton  h3{
+    font-size: 18px
+  }
+  .carDetails ul li{
+    font-size:14px;
+  }
+  form{
+    font-size:12px;
+  }
+  .title{
+     font-size:28px;
+  }
+  .offersContainer {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+    .offersContainer  h3{
+      font-size: 12px
       }
-    
-         .offersContainer  h3{
-           font-size: 12px
-            }
-            .offersContainer  h2{
-              font-size: 18px
-               }
-            .seeOffer{
-              font-size:12px;
-            }
-            .MuiSvgIcon-fontSizeSmall {
-              font-size: 1rem !important;
-          }
-          .offerDetails{
-            font-size:18px;
-          }
-}
-@media screen and (max-width: 480px) {
-  .whyText {
+    .offersContainer  h2{
+      font-size: 18px
+    }
+    .seeOffer{
+      font-size:12px;
+    }
+    .MuiSvgIcon-fontSizeSmall {
+      font-size: 1rem !important;
+    }
+    .offerDetails{
+      font-size:18px;
+    }
+  }
 
+@media screen and (max-width: 480px) {
+  .whyText {    
     font-size: 14px;
   }
   .MuiSvgIcon-fontSizeSmall {
     font-size: 0.8rem !important;
-}
-.offerDetails{
-  font-size:16px;
-}
+  }
+  .offerDetails{
+    font-size:16px;
+  }
   .menuList{
     font-size:20px;
   }
-
   .carOfferWithButton  h2{
     font-size: 18px
-     }
-     .carOfferWithButton h3{
-       font-size: 16px
-        }
-        .carDetails ul li{
-          font-size:12px;
-        }
-        form{
-          font-size:10px;
-        }
-        .headerContainer {
-  
-          padding-right: 8px;
-          padding-left: 8px;
-          justify-content: space-between;
-      }
-      .searchInput {
-
-        width: 120px;
     }
-    .offerPrice h2{
-      font-size: 14px;
-    }
-    .offersContainer  h2{
-      font-size: 16px
-       }
+  .carOfferWithButton h3{
+    font-size: 16px
+  }
+  .carDetails ul li{
+    font-size:12px;
+  }
+  form{
+    font-size:10px;
+  }
+  .headerContainer {
+    padding-right: 8px;
+    padding-left: 8px;
+    justify-content: space-between;
+  }
+  .searchInput {
+    width: 120px;
+  }
+  .offerPrice h2{
+    font-size: 14px;
+  }
+  .offersContainer  h2{
+    font-size: 16px
+  }
 }
+
 @media screen and (max-width: 440px) {
   .MuiSvgIcon-fontSizeSmall {
     font-size: 0.7rem !important;
-}
-.offerDetails{
-  font-size:14px;
-}
+  }
+  .offerDetails{
+    font-size:14px;
+  }
   .offerPrice h2{
     font-size: 12px;
   }
   .offersContainer  h2{
     font-size: 14px
-     }
+  }
 }
+
 @media screen and (max-width: 400px) {
   .whyText {
-
     font-size: 12px;
   }
   .moreButton {
     padding-right: 8px;
     padding-left: 8px;
     font-size: 20px;
-}
-  .title{
-     
+  }
+  .title{ 
     font-size:24px;
   }
   .carOfferWithButton h2{
     font-size: 16px
-     }
-     .carOfferWithButton h3{
-       font-size: 14px
-        }
-        .carOffer {
-          padding-right: 1%;
-      }
-      .contacts {
-  
-        flex-direction: column;
-    }
-    .phoneInput {
-      margin-bottom: 8px;
+  }
+  .carOfferWithButton h3{
+    font-size: 14px
+  }
+  .carOffer {
+    padding-right: 1%;
+  }
+  .contacts {
+    flex-direction: column;
+  }
+  .phoneInput {
+    margin-bottom: 8px;
   }
   .offersContainer {
     padding-left: 0.5%;
     padding-right: 0.5%;
+  }
+  .offerContainer {
+    grid-template-columns: 30% 35% 35%;
+  }
+  .menuList{
+    font-size:18px;
+  }
 }
-.offerContainer {
-  grid-template-columns: 30% 35% 35%;
-}
-.menuList{
-  font-size:18px;
-}
-}
+
 @media screen and (max-width: 360px) {
   .title{
-     
     font-size:22px;
   }
   .menuList{
@@ -923,22 +834,22 @@ width: 80%;
   }
   .MuiSvgIcon-fontSizeSmall {
     font-size: 0.6rem !important;
-}
-.offerDetails{
-  font-size:12px;
-}
+  }
+  .offerDetails{
+    font-size:12px;
+  }
   .carOfferWithButton  h2{
     font-size: 14px
-     }
-     .carOfferWithButton h3{
-      font-size: 12px
-       }
-       .offerPrice h2{
-        font-size: 10px;
-      }
-      .offersContainer  h2{
-        font-size: 12px
-         }
+  }
+  .carOfferWithButton h3{
+    font-size: 12px
+  }
+  .offerPrice h2{
+    font-size: 10px;
+  }
+  .offersContainer  h2{
+    font-size: 12px
+  }
 }
 
 

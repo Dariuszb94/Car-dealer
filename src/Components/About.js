@@ -5,28 +5,14 @@ import CallIcon from '@material-ui/icons/Call';
 export default class About extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
     };
   }
-
-  componentDidMount() {
-
-  }
-
-  componentWillUnmount() {
-
-  }
-
-  handleChange() {
-
-  }
-
   render() {
     return (
       <section className="aboutSection">
         <article className="aboutContent">
-        <article className="aboutImageContainer"><img className="aboutImage"  src={require(`../Assets/about.jpg`)}></img></article>
+        <article className="aboutImageContainer"><img className="aboutImage"  src={require(`../Assets/about.jpg`)} alt="car on map"></img></article>
         <article className="aboutTextContainer">
           <div className="aboutQuestion"><h2>Got a question?</h2></div>
           <div className="aboutContact"><h2>Contact us!</h2></div>

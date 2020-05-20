@@ -10,13 +10,13 @@ export const CARS=[
     image1:'car1/main',
     image2:'car1/side1',
     image3:'car1/side2',
-      power:"408 KM",
-      displacement:"4 663 cm3",
-      cylinders: "8",
-      color:"Black",
-      gearBox:"Automatic",
-      gears: "7",
-      driveChain:"4x4"
+    power:"408 KM",
+    displacement:"4 663 cm3",
+    cylinders: "8",
+    color:"Black",
+    gearBox:"Automatic",
+    gears: "7",
+    driveChain:"4x4"
   },
   {
     id:"1",

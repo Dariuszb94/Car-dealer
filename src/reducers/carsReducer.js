@@ -1,10 +1,6 @@
 import { UPDATE_CARS} from '../actions/types';
-import {CARS} from '../Components/Const'
-
 const initialState ={};
-
 export default function(state = initialState, action) {
-
   switch (action.type) {
     case UPDATE_CARS:
       return {

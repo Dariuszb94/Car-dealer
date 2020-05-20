@@ -3,35 +3,31 @@ import SearchIcon from '@material-ui/icons/Search';
 import {CARS} from './Const';
 import { connect } from 'react-redux';
 import  {updateCars}from '../actions/carsActions';
-import { useHistory } from "react-router-dom";
-import {
-  Route,
-  NavLink,
-  Switch
-} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
       carsArray:[],
-      searchInput:'',
+      searchInput:'', 
       searchedCarArray:[]
     };
     this.onSubmit = this.onSubmit.bind(this);
     this.onChange = this.onChange.bind(this);
   }
-
   componentDidMount() {
-    
     this.setState(
       {carsArray: CARS}
     );
     this.setState(
-      {searchedCarArray: CARS}
-    ,()=>{
-      this.props.updateCars(this.state.searchedCarArray)
-    })
+      {searchedCarArray: CARS},
+      ()=>{this.props.updateCars(this.state.searchedCarArray)}
+    )
   }
+/**
+ * Filters car array, then set state after filter.
+ * 
+ */
   onSubmit() {
     let search=this.state.searchInput;
     let beforeSearchedArr=this.state.carsArray;
@@ -39,11 +35,9 @@ class Search extends Component {
     for(let i=0;i<beforeSearchedArr.length;i++){
       let pushed={};
       Object.values(beforeSearchedArr[i]).forEach((value)=>{
-        console.log(value)
         if (value!=="0" && value!==0 && value!==""){
-        if(value.toUpperCase().includes(search.toUpperCase()))
-          {  
-            if(pushed!==beforeSearchedArr[i]){
+          if (value.toUpperCase().includes(search.toUpperCase())){  
+            if (pushed!==beforeSearchedArr[i]){
               pushed=beforeSearchedArr[i];
               afterSearchedArr.push(pushed);
             }
@@ -53,24 +47,19 @@ class Search extends Component {
     }
     this.setState(
       {searchedCarArray: afterSearchedArr},
-    
-    ()=>{this.props.updateCars(this.state.searchedCarArray)}
+      ()=>{this.props.updateCars(this.state.searchedCarArray)}
     );
   }
-    onChange(e){
-      let value = e.target.value;
-      this.setState(
-        {searchInput: value},
-      )
-    }
-  componentWillUnmount() {
+/**
+ *  Takes input from search, then set state.
+ * @param e input from search
+ */
+  onChange(e){
+    let value = e.target.value;
+    this.setState(
+      {searchInput: value},
+    )
   }
-
-  handleChange() {
-
-  }
- 
-
   render() {
     return (
       <div className="searchContainer">
@@ -80,17 +69,14 @@ class Search extends Component {
             placeholder="Search"
             onChange={this.onChange}
             value={this.state.title}
-            
           />
         </section>
         <section>
-        <NavLink to="/offers" activeClassName="active"> <button className="searchButton" onClick={this.onSubmit}><SearchIcon fontSize="medium" /></button></NavLink>
+        <NavLink to="/offers" activeClassName="active"> <button className="searchButton" onClick={this.onSubmit}><SearchIcon/></button></NavLink>
         </section>
       </div>
     );
   }
-
-  
 }
 
 
