@@ -30,6 +30,7 @@ function App({ location }) {
               <Route path="/offers" component={Offers} />
               <Route path="/offer" component={OneCar} />
               <Route path="/about" component={About} />
+              <Route  component={Home} />
             </Switch>
           </CSSTransition>
         </TransitionGroup>

@@ -11,6 +11,7 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Route path="/" component={App}  />
+      <Route component={App}  />
     </BrowserRouter>
   </Provider>, 
   document.getElementById('root')
