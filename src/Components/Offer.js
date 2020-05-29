@@ -6,11 +6,13 @@ import {NavLink} from "react-router-dom";
 class Offer extends Component {
   constructor(props) {
     super(props);
+    this.onUnload = this.onUnload.bind(this); //go to offers page on reload
     this.chooseFirstPicture = this.chooseFirstPicture.bind(this);
     this.chooseSecondPicture = this.chooseSecondPicture.bind(this);
     this.chooseThirdPicture = this.chooseThirdPicture.bind(this);
   }
   componentDidMount() {
+    window.addEventListener('beforeunload', this.onUnload); //listening for reload
 /**
  * Setting initial display of image.
  */
@@ -21,9 +23,10 @@ class Offer extends Component {
     }
   }
   componentWillUnmount() {
-
+    window.removeEventListener('beforeunload', this.onUnload);
   }
   onUnload() {
+    this.props.history.push("/Car-dealer")//go to main
   }
   chooseFirstPicture(){
     document.getElementById("picture1").style.display = ""
