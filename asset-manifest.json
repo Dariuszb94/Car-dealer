@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Car-dealer/static/css/main.a53f28f0.chunk.css",
-    "main.js": "/Car-dealer/static/js/main.c3f67818.chunk.js",
-    "main.js.map": "/Car-dealer/static/js/main.c3f67818.chunk.js.map",
-    "runtime-main.js": "/Car-dealer/static/js/runtime-main.b222779f.js",
-    "runtime-main.js.map": "/Car-dealer/static/js/runtime-main.b222779f.js.map",
-    "static/js/2.0f9b2e51.chunk.js": "/Car-dealer/static/js/2.0f9b2e51.chunk.js",
-    "static/js/2.0f9b2e51.chunk.js.map": "/Car-dealer/static/js/2.0f9b2e51.chunk.js.map",
-    "index.html": "/Car-dealer/index.html",
-    "precache-manifest.0ecebebffb01d0c00c90bb93732fa156.js": "/Car-dealer/precache-manifest.0ecebebffb01d0c00c90bb93732fa156.js",
-    "service-worker.js": "/Car-dealer/service-worker.js",
-    "static/css/main.a53f28f0.chunk.css.map": "/Car-dealer/static/css/main.a53f28f0.chunk.css.map",
-    "static/js/2.0f9b2e51.chunk.js.LICENSE.txt": "/Car-dealer/static/js/2.0f9b2e51.chunk.js.LICENSE.txt",
-    "static/media/about.jpg": "/Car-dealer/static/media/about.d1d76a6b.jpg",
-    "static/media/main.jpg": "/Car-dealer/static/media/main.8b32e445.jpg",
-    "static/media/photo-of-person-driving-769892.jpg": "/Car-dealer/static/media/photo-of-person-driving-769892.40bc8334.jpg",
-    "static/media/side1.jpg": "/Car-dealer/static/media/side1.e649635d.jpg",
-    "static/media/side2.jpg": "/Car-dealer/static/media/side2.acd7f6f9.jpg"
+    "main.css": "/static/css/main.0a5a228f.chunk.css",
+    "main.js": "/static/js/main.5e21bf4b.chunk.js",
+    "main.js.map": "/static/js/main.5e21bf4b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5145886e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5145886e.js.map",
+    "static/js/2.17645bb2.chunk.js": "/static/js/2.17645bb2.chunk.js",
+    "static/js/2.17645bb2.chunk.js.map": "/static/js/2.17645bb2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b1ac9299ef885d0b5bceca50dcef466b.js": "/precache-manifest.b1ac9299ef885d0b5bceca50dcef466b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0a5a228f.chunk.css.map": "/static/css/main.0a5a228f.chunk.css.map",
+    "static/js/2.17645bb2.chunk.js.LICENSE.txt": "/static/js/2.17645bb2.chunk.js.LICENSE.txt",
+    "static/media/about.jpg": "/static/media/about.d1d76a6b.jpg",
+    "static/media/main.jpg": "/static/media/main.8b32e445.jpg",
+    "static/media/photo-of-person-driving-769892.jpg": "/static/media/photo-of-person-driving-769892.40bc8334.jpg",
+    "static/media/side1.jpg": "/static/media/side1.e649635d.jpg",
+    "static/media/side2.jpg": "/static/media/side2.acd7f6f9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b222779f.js",
-    "static/js/2.0f9b2e51.chunk.js",
-    "static/css/main.a53f28f0.chunk.css",
-    "static/js/main.c3f67818.chunk.js"
+    "static/js/runtime-main.5145886e.js",
+    "static/js/2.17645bb2.chunk.js",
+    "static/css/main.0a5a228f.chunk.css",
+    "static/js/main.5e21bf4b.chunk.js"
   ]
 }
